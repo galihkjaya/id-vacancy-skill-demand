@@ -1,0 +1,4 @@
+Method,Micro Precision,Micro Recall,Micro F1,Macro Precision,Macro Recall,Macro F1,Support,Notes
+Dictionary-Based Extraction (Baseline),0.912,0.8586,0.8845,0.8973,0.8323,0.8455,495,"Boundary-aware regex pattern matching (IAA Raw = 99.13%, Kappa = 0.8956)"
+Standalone Embedding-Only (all-MiniLM-L6-v2),0.9,0.0182,0.0356,0.2024,0.0167,0.0298,495,Standalone cosine similarity threshold tau = 0.58 (no regex fallback)
+Hybrid (Dictionary + Sentence-Embedding),0.912,0.8586,0.8845,0.8973,0.8323,0.8455,495,all-MiniLM-L6-v2 cosine similarity threshold tau = 0.58

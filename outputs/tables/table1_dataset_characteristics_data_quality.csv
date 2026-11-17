@@ -1,0 +1,6 @@
+Metric,Value,Percentage,Description
+Total Raw Vacancies,15007,100.0%,Total raw vacancy postings collected in 2026 (predominantly Q3)
+Missing Job Descriptions,174,1.16%,Postings without text description (eligible for title-based analysis)
+Missing Advertised Salary,2641,17.60%,Postings with unstated or undisclosed compensation
+Exact Duplicate Records,47,0.31%,Identical rows across all five fields
+Substantive Duplicate Postings,60,0.40%,"Identical title, employer, location, and description"

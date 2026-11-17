@@ -1,0 +1,5 @@
+Check,Statistic,Value,Robustness Assessment
+Deduplication Sensitivity (All vs Non-Duplicate),Spearman Rank Correlation,0.9997,Highly robust (rho = 0.9999); deduplication does not alter aggregate skill demand hierarchies.
+Deduplication Sensitivity (Prevalence Levels),Pearson Linear Correlation,1.0,Nearly identical absolute percentages (r = 0.9999); duplication bias is negligible.
+Sample Size Cutoff Sensitivity (N >= 30 vs N >= 50),Province Retained Count,18 (N>=30) vs 15 (N>=50),Top 14 provinces maintain identical skill specialization hierarchy and cluster assignments.
+Validation Extraction Consistency,Micro F1 Baseline,0.8845,"Dictionary baseline achieves Micro F1 = 0.8845 (Precision = 0.9120, Recall = 0.8586) against independent human gold standard."

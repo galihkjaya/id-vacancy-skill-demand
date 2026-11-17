@@ -1,0 +1,29 @@
+Skill,Domain,Test Support,Dict_TP,Dict_FP,Dict_FN,Dict_Precision,Dict_Recall,Dict_F1,Embed_TP,Embed_FP,Embed_FN,Embed_Precision,Embed_Recall,Embed_F1,Hybrid_TP,Hybrid_FP,Hybrid_FN,Hybrid_Precision,Hybrid_Recall,Hybrid_F1,F1_Diff_Embed_vs_Dict,Dict_F1_CI_Low,Dict_F1_CI_High
+Sales & Selling,Sales & Commercial,25,25,1,0,0.9615,1.0,0.9804,18,4,7,0.8182,0.72,0.766,25,1,0,0.9615,1.0,0.9804,-0.2144,0.9333,1.0
+Marketing,Marketing & Creative,14,14,0,0,1.0,1.0,1.0,10,3,4,0.7692,0.7143,0.7407,14,0,0,1.0,1.0,1.0,-0.2593,1.0,1.0
+Administration,General Management,14,12,0,2,1.0,0.8571,0.9231,1,1,13,0.5,0.0714,0.125,12,0,2,1.0,0.8571,0.9231,-0.7981,0.7826,1.0
+Communication,Transferable Soft Skills,9,6,0,3,1.0,0.6667,0.8,0,0,9,0.0,0.0,0.0,6,0,3,1.0,0.6667,0.8,-0.8,0.4704,1.0
+Financial Accounting,Finance & Accounting,6,5,0,1,1.0,0.8333,0.9091,3,4,3,0.4286,0.5,0.4615,5,0,1,1.0,0.8333,0.9091,-0.4476,0.5714,1.0
+Accurate Accounting Software,Finance & Accounting,3,3,3,0,0.5,1.0,0.6667,0,0,3,0.0,0.0,0.0,3,3,0,0.5,1.0,0.6667,-0.6667,0.0,1.0
+Taxation (Perpajakan),Finance & Accounting,6,5,0,1,1.0,0.8333,0.9091,2,1,4,0.6667,0.3333,0.4444,5,0,1,1.0,0.8333,0.9091,-0.4647,0.615,1.0
+Microsoft Excel,Office Productivity Tools,2,2,0,0,1.0,1.0,1.0,0,0,2,0.0,0.0,0.0,2,0,0,1.0,1.0,1.0,-1.0,0.0,1.0
+Microsoft Office,Office Productivity Tools,5,4,0,1,1.0,0.8,0.8889,0,0,5,0.0,0.0,0.0,4,0,1,1.0,0.8,0.8889,-0.8889,0.5,1.0
+Graphic Design & Creative,Marketing & Creative,9,8,0,1,1.0,0.8889,0.9412,4,0,5,1.0,0.4444,0.6154,8,0,1,1.0,0.8889,0.9412,-0.3258,0.7778,1.0
+Customer Service,Customer & Service Operations,10,6,0,4,1.0,0.6,0.75,2,0,8,1.0,0.2,0.3333,6,0,4,1.0,0.6,0.75,-0.4167,0.4444,0.9475
+English Language,Transferable Soft Skills,2,2,0,0,1.0,1.0,1.0,0,0,2,0.0,0.0,0.0,2,0,0,1.0,1.0,1.0,-1.0,0.0,1.0
+Teamwork & Collaboration,Transferable Soft Skills,8,5,0,3,1.0,0.625,0.7692,0,0,8,0.0,0.0,0.0,5,0,3,1.0,0.625,0.7692,-0.7692,0.4,1.0
+Negotiation,Sales & Commercial,1,1,0,0,1.0,1.0,1.0,0,0,1,0.0,0.0,0.0,1,0,0,1.0,1.0,1.0,-1.0,0.0,1.0
+Problem Solving,Transferable Soft Skills,2,2,0,0,1.0,1.0,1.0,0,1,2,0.0,0.0,0.0,2,0,0,1.0,1.0,1.0,-1.0,0.0,1.0
+Leadership & People Management,General Management,2,2,1,0,0.6667,1.0,0.8,0,16,2,0.0,0.0,0.0,2,1,0,0.6667,1.0,0.8,-0.8,0.0,1.0
+Supply Chain & Logistics,Engineering & Operations,9,7,3,2,0.7,0.7778,0.7368,4,0,5,1.0,0.4444,0.6154,7,3,2,0.7,0.7778,0.7368,-0.1214,0.4444,0.9412
+Purchasing & Procurement,Finance & Accounting,1,1,1,0,0.5,1.0,0.6667,1,11,0,0.0833,1.0,0.1538,1,1,0,0.5,1.0,0.6667,-0.5129,0.0,1.0
+Human Resources (HR),General Management,2,2,0,0,1.0,1.0,1.0,0,9,2,0.0,0.0,0.0,2,0,0,1.0,1.0,1.0,-1.0,0.0,1.0
+Project Management,General Management,2,2,2,0,0.5,1.0,0.6667,1,1,1,0.5,0.5,0.5,2,2,0,0.5,1.0,0.6667,-0.1667,0.0,1.0
+Software Engineering & Programming,IT & Data Analysis,2,2,0,0,1.0,1.0,1.0,1,0,1,1.0,0.5,0.6667,2,0,0,1.0,1.0,1.0,-0.3333,0.0,1.0
+Data Analysis & SQL,IT & Data Analysis,1,0,0,1,0.0,0.0,0.0,0,0,1,0.0,0.0,0.0,0,0,1,0.0,0.0,0.0,0.0,0.0,0.0
+Digital Advertising & Media,Marketing & Creative,0,0,1,0,0.0,0.0,0.0,0,1,0,0.0,0.0,0.0,0,1,0,0.0,0.0,0.0,0.0,0.0,0.0
+Content Writing & Copywriting,Marketing & Creative,1,0,0,1,0.0,0.0,0.0,1,2,0,0.3333,1.0,0.5,0,0,1,0.0,0.0,0.0,0.5,0.0,0.0
+Quality Control & Assurance,Engineering & Operations,2,2,0,0,1.0,1.0,1.0,1,0,1,1.0,0.5,0.6667,2,0,0,1.0,1.0,1.0,-0.3333,0.0,1.0
+Social Media Management,Marketing & Creative,2,1,2,1,0.3333,0.5,0.4,2,0,0,1.0,1.0,1.0,1,2,1,0.3333,0.5,0.4,0.6,0.0,1.0
+Civil Engineering & Construction,Engineering & Operations,7,3,2,4,0.6,0.4286,0.5,2,3,5,0.4,0.2857,0.3333,3,2,4,0.6,0.4286,0.5,-0.1667,0.0,0.8183
+Hospitality & Culinary,Customer & Service Operations,8,4,0,4,1.0,0.5,0.6667,7,0,1,1.0,0.875,0.9333,4,0,4,1.0,0.5,0.6667,0.2666,0.25,0.9333
